@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from apiv1 import views as apiv1_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^v1/', apiv1_views),
 ]
