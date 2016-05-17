@@ -1,3 +1,6 @@
 Django>=1.9
 psycopg2>=2.5
 django-csvimport==2.4
+django-filter==0.13.0
+djangorestframework==3.3.3
+Markdown==2.6.6
